@@ -1,0 +1,121 @@
+Question 1
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int radius = scn.nextInt();
+        int area = (22 * radius * radius) / (7 * 2 * 2);
+        System.out.println(area);
+    }
+}
+
+Question 2
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        double x = scn.nextDouble();
+        double y = scn.nextDouble();
+        double area = (x * y ) / 2 ;
+        System.out.println(area);
+    }
+}
+
+Question 3
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int x = scn.nextInt();
+        if(x > 1000){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
+    }
+}
+
+Question 5
+
+public class Main {
+    public static void main(String[] args) {
+       int  x = 7 + 3 + 4 ; Ans: 14
+       int x = 12 + 5 + 8 ; Ans: 25
+       int x = 13/5 + 18/8 ; Ans: 4
+       double x = 12 + 5.0 + 2.76 ;  Ans: 19.759999999999998
+       double x = 12/3 + 13/2 ;  Ans: 10.0
+       double x =12/3 + 13.0/2 ;  Ans: 10.5
+       double x =14/2 + 15.0/4 ;  Ans: 10.75
+       double x = 13/2 % 5/3 ;    Ans: 0.0
+       double x = 17.0/2 % 16.0/4 ; Ans:2.125
+        System.out.println(x);
+    }
+}
+
+Question 6
+
+public class Main {
+    public static void main(String[] args) {
+       boolean ans = 3 > 2 ;		Ans : true
+       boolean ans = 3 >= 3 ;		Ans : true
+       boolean ans = 4 + 3 > 9 ;	Ans : false
+       boolean ans = 10 + 8 > 10 ;	Ans : true
+       boolean ans = 12 != 10 ;		Ans : true
+       boolean ans = 13 == 13 ;		Ans : true 
+       boolean ans = 14 != 14 ;		Ans : false
+       boolean ans = 20 == 5*4 ; 	Ans : true
+       boolean ans = 30 != 3+4-10 ;	Ans : true
+       boolean ans = 20 == 41/2 ;	Ans : true
+        System.out.println(ans);
+    }
+}
+
+Question 7
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner scn = new Scanner(System.in);
+        double a = scn.nextDouble();
+        double b = scn.nextDouble();
+        double c = scn.nextDouble();
+        double d = scn.nextDouble();
+        double e = scn.nextDouble();
+        double sum = a + b + c + d + e ;
+        double percentage = sum / 5 ;
+        System.out.println(sum);
+        System.out.println(percentage);
+    }
+}
+
+Question 8
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner scn = new Scanner(System.in);
+        int a = scn.nextInt();
+        int b = scn.nextInt();
+        int c = scn.nextInt();
+        int d = scn.nextInt();
+        int product = a * b * c * d ;
+        if(product > 1000){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
+    }
+}
+
+
+Question 9
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner scn = new Scanner(System.in);
+        int a = scn.nextInt();
+        if(a % 7 == 0){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
+    }
+}
